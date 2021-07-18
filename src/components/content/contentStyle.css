@@ -1,0 +1,55 @@
+.content-wrapper {
+    width: 400px;
+    position: absolute;
+    right: 280px;
+}
+.info-container {
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.sm-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: lightskyblue;
+}
+
+.info {
+    width: 70%;
+    padding: 0.75em;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.info-links {
+    box-sizing: border-box;
+    text-align: right;
+}
+.link {
+    font-size: 00.75em;
+    margin: 20px -10px;
+}
+
+.link a{
+    margin: 5px;
+    text-decoration: none;
+    color: hsl(209, 99%, 57%);
+    padding: 8px;
+    border: 1px solid hsl(209, 99%, 57%);
+    border-radius: 30px;
+}
+.brand-name {
+    font-size: 1.275em;
+    font-weight: bold;
+    padding: 0.75em;
+}
+
+@media screen and (max-width: 320px) {
+    .content-wrapper {
+        width: 290px;
+    }
+}

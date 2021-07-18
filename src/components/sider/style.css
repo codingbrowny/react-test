@@ -1,0 +1,43 @@
+#sidebar {
+  position: fixed;
+  right: 0;
+  right: -260px; 
+  transition: 0.3s linear;
+}
+
+.siderItems {
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: rgb(233, 232, 232);
+}
+
+#toggle-btn {
+  position: absolute;
+  font-size: 1.75em;
+  right: 270px;
+  bottom: 0;
+}
+
+.toggle-close{
+  font-size: 1.75em;
+  margin-right: 1.15em;
+  text-align: right;
+}
+
+.item {
+  margin-bottom: 1.275em;
+  padding-left: 1em;
+}
+
+.item a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+#sidebar.active {
+  right: 0;
+}
